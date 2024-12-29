@@ -50,6 +50,7 @@ const Blog = () => {
                     <Link
                       href={project.link}
                       className="flex items-center justify-center gap-1 hover:text-purple"
+                      target="_blank"
                     >
                       Read <FaBook className=' text-pink-400' />
                     </Link>
