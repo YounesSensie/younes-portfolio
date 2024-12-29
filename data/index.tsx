@@ -148,9 +148,40 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Blog", link: "#blog" },
   { name: "Contact", link: "#contact" },
+  
 ];
-
+export const blogsdata = [
+  {
+    id: 1,
+    title: "How do you plan a web development project ?",
+    description: "Just like this chef who thinks through every detail of his work to deliver a final product of high quality, the idea here isn’t just about the code you write — it’s about organizing and planning each step of the project.",
+    img:"/blog1.webp",
+    link:"https://medium.com/@younes10sillimi/how-do-you-plan-a-web-development-project-78c91fc1ac05"
+  },
+  {
+    id: 2,
+    title: "🚀 “What Every Programmer Should Know About Database Scaling” — Simplified and Straightforward! 🌐❤️",
+    description: "If you’re a developer or tech enthusiast, it’s time to understand the basics of Database Scaling and learn how to distribute database load intelligently. Here’s an easy and fun guide:",
+    img:"/blog2.jpg",
+    link:"https://medium.com/@younes10sillimi/what-every-programmer-should-know-about-database-scaling-simplified-and-straightforward-edc4385c2223"
+  },
+  {
+    id: 3,
+    title: "Microsoft’s Vision: The End of Traditional Business Apps and SaaS | The Beginning of the Agent Era.",
+    description: "Microsoft CEO Satya Nadella has set a bold vision for the future of software development, one that could render traditional business applications and SaaS models obsolete. His statement on the BG Squared podcast, claiming that “apps as we know them are going away in favor of agents,” marks a revolutionary shift in how we interact with software and data.",
+    img:"/blog3.webp",
+    link:"https://medium.com/@younes10sillimi/microsofts-vision-the-end-of-traditional-business-apps-and-saas-the-beginning-of-the-agent-era-2492833f5d6a"
+  },
+  {
+    id:4,
+    title: "From Zero to Seven Figures in 10 Months: A YouTube SEO Case Study",
+    description :"This article details a proven strategy for growing a SaaS business to seven figures in under a year using YouTube SEO. The approach focuses on creating various video types, leveraging creator partnerships, and strategically utilizing YouTube ads for consistent growth.",
+    img:"/blog4.webp",
+    link:"https://medium.com/@younes10sillimi/from-zero-to-seven-figures-in-10-months-a-youtube-seo-case-study-366ff69b86f6"
+  }
+]
 export const skills = [
    // 🚀 Front-End Development
    { id: 1, icon: <SiNextdotjs />, text: "Next.js" },
